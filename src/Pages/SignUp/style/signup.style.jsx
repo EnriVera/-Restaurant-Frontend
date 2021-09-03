@@ -55,3 +55,8 @@ export const DivSession = styled.div`
     }
   }
 `;
+
+export const ErrorInput = styled.span(() => ({
+  fontSize: '9px',
+  color: '#EA5454',
+}))

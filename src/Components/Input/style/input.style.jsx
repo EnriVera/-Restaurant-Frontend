@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const Div = styled.div(({props}) => ({
     width: '100%',
     height: '3.5rem',
-    margin: props || '.5rem 0 .5rem 0',
+    margin: props || '1rem 0 0 0',
     display: "flex",
     flexDirection: 'column'
 }))

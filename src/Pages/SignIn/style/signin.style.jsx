@@ -7,7 +7,7 @@ export const Section = styled.section(() => ({
   justifyContent: "center",
   alignItems: "center",
 }));
-//E4E4E4
+
 export const Article = styled.article`
   background: #fdfdfd;
   width: 45vh;
@@ -55,3 +55,8 @@ export const DivSession = styled.div`
     }
   }
 `;
+
+export const ErrorInput = styled.span(() => ({
+  fontSize: '9px',
+  color: '#EA5454',
+}))
